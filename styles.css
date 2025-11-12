@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body { @apply bg-white text-slate-900; font-family: Inter, system-ui, Arial, 'Poppins', sans-serif; }
+.text-habi { color: #5F259F; }
+.bg-habi { background-color: #5F259F; }
+.animate-spin-slow { animation: spin 1.8s linear infinite; }
